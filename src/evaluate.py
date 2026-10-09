@@ -1,5 +1,12 @@
 from datasets import Dataset
 
+from ragas import evaluate
+from ragas.metrics import Faithfulness
+from ragas.llms import LangchainLLMWrapper
+
+from langchain_openai import ChatOpenAI
+
+
 data = {
     "question": [
         "How many vacation days does an employee receive during their first year?",
@@ -46,4 +53,21 @@ data = {
 
 dataset = Dataset.from_dict(data)
 
-print(dataset)
+
+evaluator_llm = ChatOpenAI(
+    model="gpt-4o-mini",
+    temperature=0
+)
+
+evaluator_llm = LangchainLLMWrapper(evaluator_llm)
+
+
+result = evaluate(
+    dataset,
+    metrics=[
+        Faithfulness()
+    ],
+    llm=evaluator_llm
+)
+
+print(result)

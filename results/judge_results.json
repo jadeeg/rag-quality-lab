@@ -1,0 +1,74 @@
+[
+  {
+    "question": "How many vacation days does an employee receive during their first year?",
+    "category": "direct",
+    "correctness": 5,
+    "groundedness": 5,
+    "relevance": 5,
+    "abstention": 5,
+    "reason": "The answer is factually correct and consistent with the reference, supported by the retrieved context, directly addresses the question, and clearly acknowledges insufficient information without inventing facts."
+  },
+  {
+    "question": "How many vacation days does an employee receive during their third year?",
+    "category": "direct",
+    "correctness": 5,
+    "groundedness": 5,
+    "relevance": 5,
+    "abstention": 5,
+    "reason": "The answer is factually correct and consistent with the reference, supported by the retrieved context, directly addresses the question, and clearly acknowledges the information without inventing facts."
+  },
+  {
+    "question": "How early should I submit a vacation request?",
+    "category": "paraphrased",
+    "correctness": 5,
+    "groundedness": 5,
+    "relevance": 5,
+    "abstention": 5,
+    "reason": "The answer is factually correct and consistent with the reference, supported by the retrieved context, directly addresses the question, and clearly acknowledges sufficient information without inventing facts."
+  },
+  {
+    "question": "Can I carry over unused vacation days to the next year?",
+    "category": "direct",
+    "correctness": 5,
+    "groundedness": 5,
+    "relevance": 5,
+    "abstention": 5,
+    "reason": "The answer is factually correct and consistent with the reference, supported by the retrieved context, directly addresses the question, and clearly acknowledges the information without inventing facts."
+  },
+  {
+    "question": "Can my manager reject my vacation request?",
+    "category": "contextual",
+    "correctness": 4,
+    "groundedness": 5,
+    "relevance": 5,
+    "abstention": 5,
+    "reason": "The answer is factually correct and consistent with the reference. Every factual claim is supported by the retrieved context. The answer directly addresses the question. The answer is clearly abstaining from providing an answer, as it is not possible to reject the question based on the provided evidence."
+  },
+  {
+    "question": "Who is eligible for paid vacation at N star Labs?",
+    "category": "direct",
+    "correctness": 5,
+    "groundedness": 5,
+    "relevance": 5,
+    "abstention": 5,
+    "reason": "The answer is factually correct and consistent with the reference, supported by the retrieved context, directly addresses the question, and clearly acknowledges that all full-time employees are eligible for paid vacation."
+  },
+  {
+    "question": "How much does N star Labs pay for employee health insurance?",
+    "category": "out_of_scope",
+    "correctness": 2,
+    "groundedness": 1,
+    "relevance": 2,
+    "abstention": 5,
+    "reason": "The answer is mostly incorrect because it does not provide a factually correct answer. The answer 'I don't have enough information to answer that question.' is correct, but it does not address the question directly. The answer is grounded because it is a correct statement. The answer is relevant because it is a concise refusal. The answer is abstention because it is a correct statement that the question cannot be answered with the available information."
+  },
+  {
+    "question": "How many paid sick days do employees receive?",
+    "category": "out_of_scope",
+    "correctness": 2,
+    "groundedness": 5,
+    "relevance": 5,
+    "abstention": 5,
+    "reason": "The answer is mostly incorrect because it does not provide a factual claim. The answer is factually correct and consistent with the reference because it states that the answer is not answerable from the available policy documents. The answer is directly relevant to the question, and the answer is clearly abstaining from providing an answer because it is not answerable."
+  }
+]

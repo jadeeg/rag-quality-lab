@@ -2,7 +2,7 @@ from sentence_transformers import SentenceTransformer
 from sklearn.metrics.pairwise import cosine_similarity
 
 chunks = [
-    "Northstar Labs provides paid vacation to all full-time employees.",
+    "N Star Labs provides paid vacation to all full-time employees.",
     "Employees receive 15 vacation days during their first year of employment.",
     "Employees receive 20 vacation days during their second year.",
     "Beginning in the third year of employment, employees receive 25 vacation days per year.",

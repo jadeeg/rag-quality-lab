@@ -1,30 +1,50 @@
 [
   {
     "question": "How many vacation days does an employee receive during their first year?",
-    "reference_answer": "Employees receive 15 vacation days during their first year."
+    "reference": "Employees receive 15 vacation days during their first year of employment.",
+    "category": "direct",
+    "answerable": true
   },
   {
     "question": "How many vacation days does an employee receive during their third year?",
-    "reference_answer": "Employees receive 25 vacation days per year beginning in the third year."
+    "reference": "Employees receive 25 vacation days per year beginning in their third year.",
+    "category": "direct",
+    "answerable": true
   },
   {
-    "question": "How far in advance should vacation normally be requested?",
-    "reference_answer": "Vacation requests should normally be submitted at least two weeks in advance."
+    "question": "How early should I submit a vacation request?",
+    "reference": "Vacation requests should normally be submitted at least two weeks in advance.",
+    "category": "paraphrased",
+    "answerable": true
   },
   {
-    "question": "How many unused vacation days can be carried over?",
-    "reference_answer": "Up to 5 unused vacation days can be carried over into the following year."
+    "question": "Can I carry over unused vacation days to the next year?",
+    "reference": "Yes. Up to 5 unused vacation days may be carried over into the following year.",
+    "category": "direct",
+    "answerable": true
   },
   {
-    "question": "What happens if business-critical staffing requirements make the requested vacation dates impractical?",
-    "reference_answer": "A manager may deny the vacation request."
+    "question": "Can my manager reject my vacation request?",
+    "reference": "Yes. A manager may deny a request when business-critical staffing requirements make the requested dates impractical.",
+    "category": "contextual",
+    "answerable": true
   },
   {
-    "question": "How much does Northstar Labs pay for employee health insurance?",
-    "reference_answer": "The vacation policy does not contain information about health insurance."
+    "question": "Who is eligible for paid vacation at N star Labs?",
+    "reference": "All full-time employees are eligible for paid vacation.",
+    "category": "direct",
+    "answerable": true
   },
   {
-    "question": "How many paid sick days does an employee receive?",
-    "reference_answer": "The vacation policy does not contain information about sick leave."
+    "question": "How much does N star Labs pay for employee health insurance?",
+    "reference": "The vacation policy does not provide information about health insurance.",
+    "category": "out_of_scope",
+    "answerable": false
+  },
+  {
+    "question": "How many paid sick days do employees receive?",
+    "reference": "The vacation policy does not provide information about paid sick leave.",
+    "category": "out_of_scope",
+    "answerable": false
   }
 ]

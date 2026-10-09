@@ -1,0 +1,18 @@
+# Python virtual environments
+
+.venv/
+venv/
+env/
+
+
+**pycache**/
+*.py[cod]
+
+
+.env
+.env.*
+
+
+
+.pytest_cache/
+.vscode/

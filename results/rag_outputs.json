@@ -1,0 +1,66 @@
+[
+  {
+    "question": "How many vacation days does an employee receive during their first year?",
+    "reference": "Employees receive 15 vacation days during their first year of employment.",
+    "category": "direct",
+    "answerable": true,
+    "retrieved_context": "Employees receive 15 vacation days during their first year of employment.\nBeginning in the third year of employment, employees receive 25 vacation days per year.\nEmployees receive 20 vacation days during their second year.",
+    "answer": "An employee receives 15 vacation days during their first year of employment."
+  },
+  {
+    "question": "How many vacation days does an employee receive during their third year?",
+    "reference": "Employees receive 25 vacation days per year beginning in their third year.",
+    "category": "direct",
+    "answerable": true,
+    "retrieved_context": "Beginning in the third year of employment, employees receive 25 vacation days per year.\nEmployees receive 15 vacation days during their first year of employment.\nEmployees receive 20 vacation days during their second year.",
+    "answer": "An employee receives 25 vacation days per year starting from the third year of employment."
+  },
+  {
+    "question": "How early should I submit a vacation request?",
+    "reference": "Vacation requests should normally be submitted at least two weeks in advance.",
+    "category": "paraphrased",
+    "answerable": true,
+    "retrieved_context": "Vacation requests should normally be submitted at least two weeks in advance.\nManagers may deny a vacation request when business-critical staffing requirements make the requested dates impractical.\nEmployees receive 15 vacation days during their first year of employment.",
+    "answer": "You should submit a vacation request at least two weeks in advance."
+  },
+  {
+    "question": "Can I carry over unused vacation days to the next year?",
+    "reference": "Yes. Up to 5 unused vacation days may be carried over into the following year.",
+    "category": "direct",
+    "answerable": true,
+    "retrieved_context": "Unused vacation days may be carried over for up to 5 days into the following year.\nBeginning in the third year of employment, employees receive 25 vacation days per year.\nEmployees receive 20 vacation days during their second year.",
+    "answer": "Yes, you can carry over unused vacation days for up to 5 days into the following year."
+  },
+  {
+    "question": "Can my manager reject my vacation request?",
+    "reference": "Yes. A manager may deny a request when business-critical staffing requirements make the requested dates impractical.",
+    "category": "contextual",
+    "answerable": true,
+    "retrieved_context": "Managers may deny a vacation request when business-critical staffing requirements make the requested dates impractical.\nVacation requests should normally be submitted at least two weeks in advance.\nUnused vacation days may be carried over for up to 5 days into the following year.",
+    "answer": "Yes, your manager may reject your vacation request if business-critical staffing requirements make the requested dates impractical."
+  },
+  {
+    "question": "Who is eligible for paid vacation at N star Labs?",
+    "reference": "All full-time employees are eligible for paid vacation.",
+    "category": "direct",
+    "answerable": true,
+    "retrieved_context": "N Star Labs provides paid vacation to all full-time employees.\nEmployees receive 15 vacation days during their first year of employment.\nEmployees receive 20 vacation days during their second year.",
+    "answer": "Full-time employees are eligible for paid vacation at N Star Labs."
+  },
+  {
+    "question": "How much does N star Labs pay for employee health insurance?",
+    "reference": "The vacation policy does not provide information about health insurance.",
+    "category": "out_of_scope",
+    "answerable": false,
+    "retrieved_context": "N Star Labs provides paid vacation to all full-time employees.",
+    "answer": "I don't have enough information to answer that question."
+  },
+  {
+    "question": "How many paid sick days do employees receive?",
+    "reference": "The vacation policy does not provide information about paid sick leave.",
+    "category": "out_of_scope",
+    "answerable": false,
+    "retrieved_context": "Beginning in the third year of employment, employees receive 25 vacation days per year.\nEmployees receive 15 vacation days during their first year of employment.\nEmployees receive 20 vacation days during their second year.",
+    "answer": "I do not have enough information to answer that question."
+  }
+]
