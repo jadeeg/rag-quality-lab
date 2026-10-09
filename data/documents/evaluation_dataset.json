@@ -1,0 +1,30 @@
+[
+  {
+    "question": "How many vacation days does an employee receive during their first year?",
+    "reference_answer": "Employees receive 15 vacation days during their first year."
+  },
+  {
+    "question": "How many vacation days does an employee receive during their third year?",
+    "reference_answer": "Employees receive 25 vacation days per year beginning in the third year."
+  },
+  {
+    "question": "How far in advance should vacation normally be requested?",
+    "reference_answer": "Vacation requests should normally be submitted at least two weeks in advance."
+  },
+  {
+    "question": "How many unused vacation days can be carried over?",
+    "reference_answer": "Up to 5 unused vacation days can be carried over into the following year."
+  },
+  {
+    "question": "What happens if business-critical staffing requirements make the requested vacation dates impractical?",
+    "reference_answer": "A manager may deny the vacation request."
+  },
+  {
+    "question": "How much does Northstar Labs pay for employee health insurance?",
+    "reference_answer": "The vacation policy does not contain information about health insurance."
+  },
+  {
+    "question": "How many paid sick days does an employee receive?",
+    "reference_answer": "The vacation policy does not contain information about sick leave."
+  }
+]
